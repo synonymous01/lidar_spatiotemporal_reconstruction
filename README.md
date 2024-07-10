@@ -6,7 +6,7 @@ _currently a work in progress_
 
 ## Current progress
 \
-I first started by trying to align using basic ICP algorithms and appling them on all the pointclouds. The issue with ICP is that it heavily depends on the initial pose of a moving pointcloud. That works well in terms of real-time scan matching but for fully fledged pointclouds with dense information, a minimizing algorithm like ICP can get stuck in a local minima. \
+I first started by trying to align using basic ICP algorithms and appling them on all the pointclouds. The issue with ICP is that it heavily depends on the initial pose of a moving pointcloud. That works well in terms of real-time scan matching but for fully fledged pointclouds with dense information, a minimizing algorithm like ICP can get stuck in a local minima. \ \
 _These two pointclouds align perfectly_ \
 \
 ![image](https://github.com/synonymous01/lidar_spatiotemporal_reconstruction/assets/40025239/6e736863-eb69-471c-b3e8-fab06e75b485)
